@@ -17,26 +17,32 @@ body {
 }
 
 #gallery {
-  line-height:0;
-  -webkit-column-count:4; /* split it into 3 columns */
-  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  /* line-height:0;
+  -webkit-column-count:4; 
+  -webkit-column-gap:5px; 
   -moz-column-count:4;
   -moz-column-gap:10px;
   column-count:4;
-  column-gap: 10px;
+  column-gap: 10px; */
   margin-left: 100px;
   padding-left: 95px;
   padding-right: 95px;
+  display: grid;
 }
 
 #gallery img {
-  width: 65% !important;
-  height: auto !important;
+  width: 70% !important;
   margin-bottom: 17px; /* to match column gap */
 }
 
 #img {
   border-radius: 50%;
+  display: inline-grid;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 
