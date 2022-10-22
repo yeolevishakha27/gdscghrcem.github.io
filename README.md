@@ -13,10 +13,10 @@ your image to our website.
 - Fork the project:
   Click the gray `Fork` button in the top right of this page. This creates _your_ copy of the project and saves it as a new repository in your github account
 
-![Logo](https://i.ibb.co/pZhSb9Q/fork.png)
+![Logo](assets/fork.png)
 - Click on the green `Code` button, then either the HTTPS or SSH option and, click the icon to copy the URL. Now you have a copy of the project. Thus, you can play around with it locally on your computer.
 
-![Logo](https://i.ibb.co/x7b2x2t/code-clone.png) 
+![Logo](/assets/git-clone-img.png) 
 
 - Run the following commands into a terminal window (Command Prompt, Powershell, Terminal, Bash, ZSH). Do this to download the forked copy of this repository to your computer.
 
