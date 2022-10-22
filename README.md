@@ -6,7 +6,7 @@ your image to our website.
 
 
 
-![Logo](https://i.ibb.co/3zBx38L/webSnap.png)
+![Logo](/assets/gdscghrcem.png)
 
 
 ## Instructions:
