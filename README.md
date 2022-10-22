@@ -43,7 +43,8 @@ your image to our website.
 - Open the `assets` folder and paste you 1:1 ratio image there.
 - Then open the `index.html` file and paste the path of the image alloted to you. 
 ```bash
-  <img src="./assets/name.png" id="img" />
+  <img src="./assets/name.png" class="col img" />
+  <!--Add your image tag below this line -->
 ```
 
 - Stage your changes.
