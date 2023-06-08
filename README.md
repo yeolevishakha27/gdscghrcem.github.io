@@ -40,8 +40,12 @@ your character card to our website.
   git checkout -b <name-of-new-branch>
 ```
 
-- Open the `assets` folder and paste your image, preferably (1:1 ratio ) there.
-- Then open the `index.html` file and paste the below code of the card alloted to you.
+- Open the `assets` folder and paste your image, preferably in 7:6 ratio there.
+- Then open the `index.html` file and paste the below code of the card alloted to you below the line that says ```bash
+<!--Add your card below this line -->
+
+````
+
 
 ```html
 <!--card start-->
@@ -50,34 +54,30 @@ your character card to our website.
     <div class="col-md-4 p-0 ">
       <!-- Replace image_name_here with the complete name (with extension) of the image you uploaded -->
       <img
-        src="./assets/sherlock_holmes.jpeg"
-        alt="[Sherlock Holmes]"
-        height="300px"
+        src="./assets/[your_image_name_with_extension]"
+        alt="[Your Character Name]"
+        height="390px"
         width="300px"
       />
     </div>
     <div class="col-md-8 card-custom">
       <div class="card-body">
-        <h2 class="card-title">Sherlock Holmes</h2>
+        <h2 class="card-title">[Your Character Name]</h2>
         <p class="card-text">
-          A consulting detective who is a genius at solving mysteries and is
-          known for his eccentric personality. The character is known for his
-          proficiency with observation, deduction, forensic science, and logical
+          [Your Character Info 1 (2 sentences preferably)]
         </p>
         <p class="card-text">
-          This fictional character was created by Sir Arthur Conan Doyle. He is
-          a London-based detective who uses his intelligence and logical
-          reasoning to solve cases.
+          [Your Character Info 2 (2 sentences preferably)]
         </p>
         <hr />
-        <p class="card-text">Contributed by - soulkadhi</p>
+        <p class="card-text">Contributed by - [Your Name]]</p>
       </div>
     </div>
   </div>
 </div>
 <!--Sample [Character Name] card end-->
 <!--Add your card below this line -->
-```
+````
 
 - Stage your changes.
 
@@ -115,4 +115,14 @@ or
 ```bash
   git branch -M main
   git push -u origin main
+```
+
+---
+
+## Additional Resources
+
+- Command to install git using cli
+
+```bash
+winget install --id Git.Git -e --source winget
 ```
