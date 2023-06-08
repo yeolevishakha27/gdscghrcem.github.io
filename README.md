@@ -1,27 +1,25 @@
-
-# GDSC GHRCEM 
+# GDSC GHRCEM
 
 This is a repository for you to pratice and make pull request by adding
-your image to our website. 
-
-
+your character card to our website.
 
 ![Logo](/assets/gdscghrcem.png)
 
-
 ## Instructions:
+
 - Fork the project:
   Click the gray `Fork` button in the top right of this page. This creates _your_ copy of the project and saves it as a new repository in your github account
 
 ![Logo](assets/fork.png)
+
 - Click on the green `Code` button, then either the HTTPS or SSH option and, click the icon to copy the URL. Now you have a copy of the project. Thus, you can play around with it locally on your computer.
 
-![Logo](/assets/git-clone-img.png) 
+![Logo](/assets/git-clone-img.png)
 
 - Run the following commands into a terminal window (Command Prompt, Powershell, Terminal, Bash, ZSH). Do this to download the forked copy of this repository to your computer.
 
 ```bash
-  git clone LinkCopied
+  git clone Copied_Link
 ```
 
 - Switch to the cloned folder. You can paste this command into the same terminal window.
@@ -29,22 +27,56 @@ your image to our website.
 ```bash
   cd gdscghrcem.github.io
 ```
+
 - Open the colned files in vs-code
 
 ```bash
   code .
 ```
+
 - Make a new branch. Your username would make a good branch because it's unique.
 
 ```bash
   git checkout -b <name-of-new-branch>
 ```
 
-- Open the `assets` folder and paste you 1:1 ratio image there.
-- Then open the `index.html` file and paste the path of the image alloted to you. 
-```bash
-  <img src="./assets/name.png" class="col img" />
-  <!--Add your image tag below this line -->
+- Open the `assets` folder and paste your image, preferably (1:1 ratio ) there.
+- Then open the `index.html` file and paste the below code of the card alloted to you.
+
+```html
+<!--card start-->
+<div class="card mb-3 card-bg my-4" style="max-width: 100%;">
+  <div class="row no-gutters">
+    <div class="col-md-4 p-0 ">
+      <!-- Replace image_name_here with the complete name (with extension) of the image you uploaded -->
+      <img
+        src="./assets/sherlock_holmes.jpeg"
+        alt="[Sherlock Holmes]"
+        height="300px"
+        width="300px"
+      />
+    </div>
+    <div class="col-md-8 card-custom">
+      <div class="card-body">
+        <h2 class="card-title">Sherlock Holmes</h2>
+        <p class="card-text">
+          A consulting detective who is a genius at solving mysteries and is
+          known for his eccentric personality. The character is known for his
+          proficiency with observation, deduction, forensic science, and logical
+        </p>
+        <p class="card-text">
+          This fictional character was created by Sir Arthur Conan Doyle. He is
+          a London-based detective who uses his intelligence and logical
+          reasoning to solve cases.
+        </p>
+        <hr />
+        <p class="card-text">Contributed by - soulkadhi</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Sample [Character Name] card end-->
+<!--Add your card below this line -->
 ```
 
 - Stage your changes.
@@ -56,7 +88,7 @@ your image to our website.
 - Commit the changes.
 
 ```bash
-  git commit -m "Add image" 
+  git commit -m "Added My Card"
 ```
 
 - Check the status of your repository.
@@ -75,7 +107,7 @@ nothing to commit, working tree clean
 - Pushing your repository to GitHub.
 
 ```bash
-  git push origin <name-of-your-branch>
+  git push -u origin <name-of-your-branch>
 ```
 
 or
