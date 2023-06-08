@@ -122,3 +122,10 @@ or
 ```bash
 winget install --id Git.Git -e --source winget
 ```
+
+- Command to run if it's your first GitHub push
+
+```bash
+git config –global user.name “Your Name”
+git config –global user.email “Your Email”
+```
