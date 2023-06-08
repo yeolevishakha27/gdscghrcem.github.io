@@ -41,11 +41,7 @@ your character card to our website.
 ```
 
 - Open the `assets` folder and paste your image, preferably in 7:6 ratio there.
-- Then open the `index.html` file and paste the below code of the card alloted to you below the line that says ```bash
-<!--Add your card below this line -->
-
-````
-
+- Then open the `index.html` file and paste the below code of the card alloted to you below the line that says "`<!--Add your card below this line -->`"
 
 ```html
 <!--card start-->
@@ -77,7 +73,7 @@ your character card to our website.
 </div>
 <!--Sample [Character Name] card end-->
 <!--Add your card below this line -->
-````
+```
 
 - Stage your changes.
 
