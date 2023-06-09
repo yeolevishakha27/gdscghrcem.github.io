@@ -52,8 +52,8 @@ your character card to our website.
       <img
         src="./assets/[your_image_name_with_extension]"
         alt="[Your Character Name]"
-        height="390px"
-        width="300px"
+        height="100%"
+        width="100%"
       />
     </div>
     <div class="col-md-8 card-custom">
